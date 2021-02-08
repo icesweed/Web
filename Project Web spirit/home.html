@@ -1,0 +1,139 @@
+<html lang="en-th">
+
+<head>
+  <title>PhotoHub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+  </style>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="home.html">PhotoHub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-uppercase" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="photograph.html">Photographer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="tutor.html">Tutor</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="slide/3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="slide/2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="slide/1.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <hr>
+    <h1 style="text-align: center; font-weight: bold; padding-top: 20px; padding-bottom: 30px;">
+      @KKU
+    </h1>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <h1 style="text-align: center;" href="">Photographer</h1>
+        <div class="card" style="height: 15rem;">
+          <img src="4.jpg" class="card-img-top"  alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Natthajak Singyabut</h5>
+            <p class="card-text">รับแต่ผู้หญิงครับ ผู้ชายกรุณาอย่าติดต่อมานะครับ :)</p>
+            <a href="photograph.html" class="btn btn-primary">contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <h1 style="text-align: center;">TUTOR</h1>
+        <div class="card" style="">
+          <img src="2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Surapat Judwaded</h5>
+            <p class="card-text">รับสอนพิเศษ มัธยม ต้น/ปลาย ราคากันเอง</p>
+            <a href="tutor.html" class="btn btn-primary">contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--เขียน ข้างบน ข้างล่างนี้อยู่ล่างสุดแล้ว-->
+  <div style=" padding-top: 200px;">  <br></div>
+
+  <div style="background-color: lightgray;">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h1>About our web</h1>
+          <p> เว็บไซซ์นี้เป็นส่วนหนึ่งของรายวิชา
+          </p>
+        </div>
+        <div class="col-6">
+          <h1>ทีมผู้พัฒนา</h1>
+          <p>นาย กำชัย ใจสั่งมา อิอิ<br>
+          นาย ดลดนัย ใจโลเล อุอุ<br>
+          นาย สุรพัด พงสาวดาน<br>
+          นาย มารุต ฉุดกระชาก<br>
+          นาย นัฐจักร ถ่าย*เป็นหลัก
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
